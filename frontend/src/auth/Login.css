@@ -1,0 +1,59 @@
+.login-container {
+    background-image: url("C:\\Users\\pranamya\\idk2\\frontend\\src\\assets\\walk-anime.gif");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes animate {
+    0%{background-image: url('C:\\Users\\pranamya\\idk2\\frontend\\src\\assets\\1.jpeg');}
+    33%{background-image: url('C:\\Users\\pranamya\\idk2\\frontend\\src\\assets\\2.jpeg');}
+    66%{background-image: url('C:\\Users\\pranamya\\idk2\\frontend\\src\\assets\\3.jpeg');}
+    100%{background-image: url('C:\\Users\\pranamya\\idk2\\frontend\\src\\assets\\1.jpeg');}
+    
+  }
+  .form-container {
+    background-color: rgba(46, 45, 45, 0.838);
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+  }
+  
+  .form-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-input {
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
